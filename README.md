@@ -49,27 +49,56 @@ watermark_remover/
 
 ---
 
-## **📄 File Descriptions**  
-| File | Description |
-|------|-------------|
-| `watermark_detector.py` | Handles automatic watermark detection using edge detection and thresholding. |
-| `watermark_remover.py` | Applies inpainting techniques to remove watermarks. |
-| `image_utils.py` | Helper functions for file handling, masking, and preprocessing. |
-| `interface.py` | CLI and GUI logic for user interaction. |
-| `main.py` | Entry point for the application (connects all components). |
-| `requirements.txt` | Lists required libraries and dependencies. |
-| `test_detector.py`, `test_remover.py` | Unit tests for detection and removal logic. |
-
----
-
-## **🔧 Installation**  
-1. **Clone the repository**  
-```bash
+## **🔧 Setup**  
+### **1. Clone the Repository**  
+Open a terminal or PowerShell and run:  
+```powershell
 git clone https://github.com/your-username/watermark-remover.git
 ```
 
-2. **Navigate to the project directory**  
-```bash
+---
+
+### **2. Navigate to the Project Directory**  
+```powershell
 cd watermark-remover
 ```
+
+---
+
+### **3. Create a Virtual Environment**  
+Create a virtual environment named `venv`:  
+```powershell
+python -m venv venv
+```
+
+---
+
+### **4. Activate the Virtual Environment**  
+👉 **Windows:**  
+```powershell
+.\venv\Scripts\activate
+```
+👉 **Linux/macOS:**  
+```bash
+source venv/bin/activate
+```
+
+---
+
+### **5. Install Dependencies**  
+Create a `requirements.txt` file and add the following:  
+```
+opencv-python-headless  
+numpy  
+```
+
+Then install dependencies using:  
+```powershell
+pip install -r requirements.txt
+```
+
+---
+
+## ✅ **Done!**  
+You’re now ready to start coding! 😎  
 
